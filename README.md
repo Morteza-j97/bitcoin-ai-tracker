@@ -2,7 +2,7 @@
 
 A small side project I built to keep an eye on the Bitcoin price without staring at a chart all day.
 
-It checks the BTC/USD price every minute. If the price jumps or drops too fast, it prints a warning in the terminal, saves it in `alerts.log`, and shows it at the top of `report.html`. Every 30 minutes it draws a chart of the last half hour, saves it as an image, and asks an AI model to write a short analysis of it (in Persian, since that's what I read fastest).
+It checks the BTC/USD price every minute. If the price jumps or drops too fast, it prints a warning in the terminal, saves it in `alerts.log`, and shows it at the top of `report.html`. Every 30 minutes it draws a chart of the last half hour, saves it as an image, and asks an AI model to write a short analysis of it 
 
 The analysis is printed in the terminal, saved as a text file next to the chart, and added to a small `report.html` page that shows the newest charts with their analysis. Open it in a browser and it refreshes itself every minute.
 
