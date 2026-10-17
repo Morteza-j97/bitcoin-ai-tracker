@@ -70,7 +70,6 @@ Everything is in `config.py`. The ones I actually touch:
 
 - The price history lives in memory only. If you restart the script, the first chart comes about 30 minutes later.
 - Charts and analyses pile up in the `charts/` folder and nothing deletes them, so clean it out once in a while.
-- The AI only describes what it sees in the chart. Don't treat it as financial advice, I certainly don't.
 
 ---
 Built by Morteza Jvaheri
